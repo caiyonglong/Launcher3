@@ -7,7 +7,7 @@ android {
     buildToolsVersion "26.0.2"
 
     defaultConfig {
-        applicationId "com.android.launcher3"
+        applicationId "com.dragon.launcher3"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -83,9 +83,9 @@ protobuf {
                 task.builtins {
                     remove java
                     javanano {
-                        option "java_package=launcher_log_extension.proto|com.android.launcher3.userevent.nano"
-                        option "java_package=launcher_log.proto|com.android.launcher3.userevent.nano"
-                        option "java_package=launcher_dump.proto|com.android.launcher3.model.nano"
+                        option "java_package=launcher_log_extension.proto|com.dragon.launcher3.userevent.nano"
+                        option "java_package=launcher_log.proto|com.dragon.launcher3.userevent.nano"
+                        option "java_package=launcher_dump.proto|com.dragon.launcher3.model.nano"
                         option "enum_style=java"
                     }
                 }
